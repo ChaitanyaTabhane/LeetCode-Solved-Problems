@@ -21,6 +21,7 @@ public:
             int min = INT_MAX;
             // Ex [3 2 5 3 1] -> 2 is to swap
             int toswap =  nums[inf-1]; // the element which is to swap to its greater no.
+            
             for (int j=inf; j<=n;j++){
                 if(nums[j]-toswap>0 && nums[j]-toswap<min){// for finding the greater no. than it
                     
