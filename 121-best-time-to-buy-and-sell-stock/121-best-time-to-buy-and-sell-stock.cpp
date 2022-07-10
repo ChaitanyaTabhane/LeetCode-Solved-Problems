@@ -11,7 +11,7 @@ public:
             //calculating Profit and updating it with maxProfit if it us greater
             int profit = prices[i]-minPrice;
             maxProfit=max(maxProfit,profit);
-          //maxProfit= max(maxProfit,prices[i]-minPrice);
+            //maxProfit= max(maxProfit,prices[i]-minPrice);
             }
         return maxProfit;
         }
