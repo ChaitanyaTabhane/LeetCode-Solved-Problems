@@ -21,7 +21,9 @@ public:
                 ans.push_back(temp); 
                 temp = it; 
             }
+            //cout<<temp[0]<<" "<<temp[1]<<endl;
         }
+        
         ans.push_back(temp);
         return ans; 
     }
