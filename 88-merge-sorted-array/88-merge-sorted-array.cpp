@@ -29,5 +29,6 @@ public:
                 nums1[i--] = nums2[p2--];
             }
         }
+        // O(N)
     }
 };
