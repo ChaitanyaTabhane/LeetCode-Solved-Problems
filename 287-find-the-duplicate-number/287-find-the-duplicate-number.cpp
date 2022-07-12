@@ -9,5 +9,6 @@ public:
             }
         }
         return cur;
+        //O(NlogN), optimal solution requires linked list O(N)
     }
 };
