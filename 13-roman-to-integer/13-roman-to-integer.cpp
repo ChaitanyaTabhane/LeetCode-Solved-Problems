@@ -3,7 +3,7 @@ public:
     int romanToInt(string s) {
         int sum = 0;
         char tail;
-        for(char &c : s)
+        for(char &c : s) // taking and so that it should not create a copy 
         {
             switch (c)
             {
@@ -11,6 +11,8 @@ public:
                     sum += 1;
                     break;
                 case 'V':
+                    // If previos character is less then it will be 3 and if not then 
+                    // it will 5, similarly for below cases
                     (tail == 'I') ? sum += 3 : sum += 5;
                     break;
                 case 'X':
